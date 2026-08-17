@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CV của Thao</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>CV của Thao</h1>
+    <p>Tên: Thao</p>
+    <h2>Kỹ năng</h2>
+    <ul>
+        <li>Python</li>
+        <li>HTML</li>
+        <li>CSS</li>
+    </ul>
+    <a href="https://google.com">Google</a>
+
+    <input type="text" id="name" placeholder="Nhập tên">
+    <button onclick="greet()">Chào</button>
+    <script>
+    function greet() {
+        let name = document.getElementById('name').value;
+        if (name) {
+            alert('Xin chào ' + name);
+        } else {
+            alert('Vui lòng nhập tên');
+        }
+    }
+    </script>
+</body>
+</html>

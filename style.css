@@ -1,0 +1,14 @@
+h1 {
+            color: blue;
+            font-size: 40px;
+        }
+        p {
+            color: gray;
+        }
+        li {
+            color: orange;
+        }
+        a {
+            color: purple;
+            text-decoration: none;
+        }
