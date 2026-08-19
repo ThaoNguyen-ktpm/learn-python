@@ -1,0 +1,8 @@
+# Bỏ qua các file ghi chú cá nhân
+hoc.py
+
+# Bỏ qua các thư mục chứa dữ liệu được tạo tự động
+api_data/
+
+# Bỏ qua các thư mục hệ thống của Python
+__pycache__/
