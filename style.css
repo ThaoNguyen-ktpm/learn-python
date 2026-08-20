@@ -182,6 +182,34 @@ footer {
     background: #4CAF50;
 }
 
+.project-links {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.btn-demo {
+    background-color: #f0ad4e;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+.demo-output {
+    display: none; /* Ẩn mặc định */
+    background-color: #1e1e1e; /* Màu nền giống terminal */
+    color: #00ff00; /* Màu chữ xanh lá */
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    white-space: pre-wrap; /* Để không bị tràn dòng */
+    font-size: 14px;
+}
 
 #darkModeBtn {
     background: transparent;

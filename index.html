@@ -90,9 +90,14 @@
             </p>
 
             <div class="project-links">
-                <a href="https://github.com/ThaoNguyen-ktpm/learn-python/blob/main/api_data_saver.py" target="_blank">GitHub</a>
+                <a class="github-link" href="https://github.com/ThaoNguyen-ktpm/learn-python/blob/main/api_data_saver.py" target="_blank">GitHub</a>
+                <button class="btn-demo" data-project="api-saver">Run Demo</button>
             </div>
+
+            <!-- Khung hiển thị kết quả demo -->
+            <pre class="demo-output" id="api-saver-output"></pre>
         </div>
+
 
         <div class="project">
             <h3>Website Status Checker</h3>
@@ -103,8 +108,34 @@
             </p>
 
             <div class="project-links">
-                <a href="https://github.com/ThaoNguyen-ktpm/learn-python/blob/main/website_checker.py" target="_blank">GitHub</a>
+                <a class="github-link" href="https://github.com/ThaoNguyen-ktpm/learn-python/blob/main/website_checker.py" target="_blank">GitHub</a>
+                <button class="btn-demo" data-project="website-checker">Run Demo</button>
             </div>
+            
+            <!-- Khung hiển thị kết quả demo -->
+            <pre class="demo-output" id="website-checker-output"></pre>
+        </div>
+
+
+         <div class="project">
+            <h3>Video Info & Thumbnail Extractor</h3>
+            <p>Extracts video information (duration, resolution) and automatically generates a thumbnail.</p>
+
+            <!-- Giao diện nhập liệu, ban đầu được ẩn đi -->
+            <div id="video-processor-ui" style="display: none; margin-top: 15px; margin-bottom: 15px;">
+                <!-- Input ẩn để chọn file -->
+                <input type="file" id="video-upload-input" accept="video/*" style="display: none;">
+                <!-- Nút bấm mà người dùng sẽ thấy -->
+                <button id="video-upload-btn" class="btn">Select Video From Computer</button>
+            </div>
+
+            <div class="project-links">
+                <a class="github-link" href="https://github.com/ThaoNguyen-ktpm/learn-python/blob/main/video_processor.py" target="_blank">GitHub</a>
+                <!-- Nút này sẽ kích hoạt giao diện trên -->
+                <button class="btn-demo" data-project="video-processor">Run Demo</button>
+            </div>
+
+            <pre id="video-processor-output" class="demo-output"></pre>
         </div>
 
     </div>
